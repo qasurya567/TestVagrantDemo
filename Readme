@@ -1,0 +1,19 @@
+To Run The Framework : Run pom.xml as MavenTest
+Language Used : java 8
+Selenium version :2.52
+TestNG and Cucumber 
+
+Execution Flow:
+pom.xml trigger testNg.xml kept in resource Folder
+testNG executes Testngtestrunner class in Engine 
+Testngtestrunner triggers TestNGCucumberRunner which executed Feature file 
+
+Folders Description:
+1. BusinessComponent : Contains all the logic 
+2. Engine : All the Step Definition for each and every Gherkins Keyword are defined here it calls logic class from BusinessComponent
+3. EngineFeature : Contains all the feature file
+4. Generics : All Constant and Webdriver Method are defined as generic
+5. pageFactory : All WebElements are defined in POM
+
+Reporting:
+path : GO-JEK/target/Destination/index.html (open with web browser) 

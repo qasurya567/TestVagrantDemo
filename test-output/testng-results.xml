@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: EndtoEnd.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: To complete the flow of buying a ticket from Cleartrip</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Step by Step Execution of Payment Flow on Cleartrip</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I am navigating to site (passed : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Select kind of Trip as &quot;Round trip&quot; (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Select Booking From &quot;Bangalore, IN - Kempegowda International Airport (BLR)&quot; to &quot;Varanasi, IN - Lal Bahadur Shastri (VNS)&quot; (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Select DepartDate as &quot;Fri, 25 May, 2018&quot; and ReturnDate as &quot;Sun, 27 May, 2018&quot; (passed : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Click on Search button (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Conform Booking from Second Page (passed : 30s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Pass Itenerary on Third page (passed : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Fill Traveller information as &quot;Mr&quot; &quot;Surya&quot; &quot;Singh&quot; &quot;9886482910&quot; and Continue to payment (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Conform the payment option is Displayed (passed : 10s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="85926" started-at="2018-05-03T11:24:04Z" finished-at="2018-05-03T11:25:30Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestngTestRunner.run_cukes()[pri:0, instance:Engine.TestngTestRunner@3e6fa38a]" name="run_cukes" class="Engine.TestngTestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="85926" started-at="2018-05-03T11:24:04Z" finished-at="2018-05-03T11:25:30Z">
+      <class name="Engine.TestngTestRunner">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:Engine.TestngTestRunner@3e6fa38a]" name="beforeMethod" is-config="true" duration-ms="5365" started-at="2018-05-03T16:54:04Z" finished-at="2018-05-03T16:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.cleartrip.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:Engine.TestngTestRunner@3e6fa38a]" name="run_cukes" duration-ms="78598" started-at="2018-05-03T16:54:09Z" description="Runs Cucumber Features" finished-at="2018-05-03T16:55:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: EndtoEnd.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: To complete the flow of buying a ticket from Cleartrip</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Step by Step Execution of Payment Flow on Cleartrip</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I am navigating to site (passed : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Select kind of Trip as &quot;Round trip&quot; (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Select Booking From &quot;Bangalore, IN - Kempegowda International Airport (BLR)&quot; to &quot;Varanasi, IN - Lal Bahadur Shastri (VNS)&quot; (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Select DepartDate as &quot;Fri, 25 May, 2018&quot; and ReturnDate as &quot;Sun, 27 May, 2018&quot; (passed : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Click on Search button (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Conform Booking from Second Page (passed : 30s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Pass Itenerary on Third page (passed : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Fill Traveller information as &quot;Mr&quot; &quot;Surya&quot; &quot;Singh&quot; &quot;9886482910&quot; and Continue to payment (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Conform the payment option is Displayed (passed : 10s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Engine.TestngTestRunner@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="1864" started-at="2018-05-03T16:55:28Z" finished-at="2018-05-03T16:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Engine.TestngTestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
